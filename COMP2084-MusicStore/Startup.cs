@@ -51,11 +51,9 @@ namespace COMP2084_MusicStore
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             
-                app.UseDeveloperExceptionPage();
-                app.UseDatabaseErrorPage();
-            
-           
-               
+            app.UseDeveloperExceptionPage();
+            app.UseDatabaseErrorPage();
+                          
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
